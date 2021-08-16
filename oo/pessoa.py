@@ -18,7 +18,12 @@ if __name__ == '__main__':
     print(cleiton.idade)
     for filho in cleiton.filhos:
         print(filho.nome)
-    print(cleiton.filhos)
+    cleiton.sobrenome = 'Teixeira'
+    del cleiton.filhos
+    print(cleiton.__dict__)
+    print(renzo.__dict__)
+
+
 
 
 
